@@ -4,6 +4,6 @@
   "description": "Cashfree payment backend for Prabanjas Shop",
   "type": "module",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   }
 }
