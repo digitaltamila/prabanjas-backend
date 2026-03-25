@@ -62,8 +62,8 @@ export default async function handler(req, res) {
           customer_email: customerEmail || "customer@prabanjas.shop",
         },
         order_meta: {
-          return_url: `${process.env.SITE_URL}/payment-success?order_id={order_id}`,
-          notify_url: `${process.env.VERCEL_URL}/api/webhook`,
+          return_url: `${process.env.SITE_URL || "https://prabanjas.shop"}/?order_id={order_id}&status=success`,
+          notify_url: `https://prabanjas-backend-3dkl.vercel.app/api/webhook`,
         },
       }),
     });
