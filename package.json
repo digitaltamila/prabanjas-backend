@@ -1,0 +1,9 @@
+{
+  "name": "prabanjas-backend",
+  "version": "1.0.0",
+  "description": "Cashfree payment backend for Prabanjas Shop",
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  }
+}
